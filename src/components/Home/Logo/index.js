@@ -35,7 +35,6 @@ const Logo = () => {
                 duration:3,
             }
         );
-
     },[]);
 
     return (
@@ -46,7 +45,7 @@ const Logo = () => {
                 src={LogoT} 
                 alt="T" 
             />
-                 <svg 
+                 {/* <svg 
                     width="218.75" 
                     height="277.539" 
                     viewBox="0 0 218.75 277.539" 
@@ -58,7 +57,7 @@ const Logo = () => {
                                 ref={outlineLogoRef}
                                 d="M 0 29.297 L 0 0 L 218.75 0 L 218.75 29.297 L 125.977 29.297 L 125.977 277.539 L 92.773 277.539 L 92.773 29.297 L 0 29.297 Z"/>
                         </g>
-                </svg> 
+                </svg>  */}
         </div>
     )
 }
