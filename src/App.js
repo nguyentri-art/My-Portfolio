@@ -4,6 +4,8 @@ import Dashboard from './components/Dashboard';
 import Home from './components/Home';
 import Layout from './components/Layout';
 import Contact from './components/Contact';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -11,8 +13,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />} >
             <Route index element={<Home />} />
-            <Route index element={<Contact />} />
-            <Route index element={<Dashboard />} />
+            <Route path="about" element={<About />} />
+            <Route path="/contact" element={<Contact />}  />
+            <Route path="/portfolio" element={<Portfolio/>} />
+            <Route path="/dashboard" element={<Dashboard />} />
           </Route>
         </Routes>
       </>

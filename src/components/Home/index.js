@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect  } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Logo from './Logo';
+import Login from '../Login';
 
 const Home = () => {
     const [letterClass,setLetterClass] = useState('text-animate');
@@ -34,6 +35,8 @@ const Home = () => {
                          <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
             <Logo />
+
+            <Login  className="Login_class"/>
         </div>
     )
 }

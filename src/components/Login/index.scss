@@ -1,0 +1,12 @@
+
+.dashboard{
+
+    padding-left: 5%;
+    text-decoration: solid;
+    padding-top:5%;
+    &:hover{
+        background: none;
+        margin-top:3px;
+        transition: all 0.3s;
+    }
+}
