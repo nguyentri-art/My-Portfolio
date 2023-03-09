@@ -1,5 +1,33 @@
 # Getting Started with Create React App
 
+# In This project i try to deploy this to firebase but i use version trail so it's cannot happen .! 
+
+# And this is some libary i use to this project 
+/*
+# @emailjs/browser
+
+@fortawesome/free-brands-svg-icons
+
+@fortawesome/free-solid-svg-icons
+
+npm i @fortawesome/react-fontawe
+
+npm i animate.css
+
+npm i gsap-trial
+
+npm i loaders.css
+
+npm i react-leaflet
+
+npm i react-loaders
+
+npm i react-router-dom
+
+npm i sass
+
+*/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
